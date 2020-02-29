@@ -1,3 +1,17 @@
+<?php
+// Query params are:  
+
+require_once dirname(__FILE__) . '/kclick_client.php';
+$client = new KClickClient('http://five.mapsrider.xyz/api.php?', '51cr72lmcfv9xw2gxgpps2tpjnxypnhq');
+$client->sendAllParams();       // to send all params from page query
+$client->forceRedirectOffer();       // redirect to offer if an offer is chosen
+// $client->param('sub_id_5', '123'); // you can send any params
+// $client->keyword('PASTE_KEYWORD');  // send custom keyword
+// $client->currentPageAsReferrer(); // to send current page URL as click referrer
+// $client->debug();              // to enable debug mode and show the errors
+// $client->execute();             // request to api, show the output and continue
+$client->executeAndBreak();     // to stop page execution if there is redirect or some output
+?>
 <!DOCTYPE html>
 <!-- saved from url=(0075)https://fit2u.ru/articles/delaem-zaryadku-pravilno-pravila-sovety-i-nyuansy -->
 <html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./Как правильно делать зарядку по утрам, правильная утренняя зарядка_files/approve" type="text/javascript" async=""></script><script src="./Как правильно делать зарядку по утрам, правильная утренняя зарядка_files/Y291bnRlcl9pZD0zOTU5ZjM2ZGEzZWIwNGFiZDk4YTU2M2Y2YmQ1NWVmNCZwYWdlPWh0dHBzJTNBJTJGJTJGZml0MnUucnUlMkZhcnRpY2xlcyUyRmRlbGFlbS16YXJ5YWRrdS1wcmF2aWx" type="text/javascript" async=""></script><script async="" src="./Как правильно делать зарядку по утрам, правильная утренняя зарядка_files/counter.js.Без названия"></script>
