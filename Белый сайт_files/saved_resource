@@ -1,8 +1,0 @@
-/**/ jsonpCallbacks.cb09040167695642598({
-   "error": {
-      "message": "An access token is required to request this resource.",
-      "type": "OAuthException",
-      "code": 104,
-      "fbtrace_id": "AMB4cg0XRarqLNbuvCVLe07"
-   }
-});
